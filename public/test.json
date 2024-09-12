@@ -1,0 +1,27 @@
+[
+  {
+    "fronte": "Giacomello",
+    "retro": ["cacciatore di tesori", "amico dei draghi", "ama il rischio"],
+    "dettaglio": "Giacomello è un avventuriero che sfida il pericolo ogni giorno, alla ricerca di ricchezze e gloria."
+  },
+  {
+    "fronte": "Lucilla",
+    "retro": ["maga potente", "studia antichi incantesimi", "solitaria"],
+    "dettaglio": "Lucilla vive in una torre isolata e dedica il suo tempo a padroneggiare l'arte della magia arcana."
+  },
+  {
+    "fronte": "Bartolomeo",
+    "retro": ["guerriero valoroso", "leader coraggioso", "difensore dei deboli"],
+    "dettaglio": "Bartolomeo guida un gruppo di ribelli contro l'oppressione di un impero tirannico."
+  },
+  {
+    "fronte": "Elfrido",
+    "retro": ["inventore geniale", "crea macchine volanti", "ama la scienza"],
+    "dettaglio": "Elfrido è conosciuto per le sue incredibili invenzioni che combinano meccanica e magia."
+  },
+  {
+    "fronte": "Mirandola",
+    "retro": ["custode del bosco", "comunica con gli animali", "protettore della natura"],
+    "dettaglio": "Mirandola vive nei boschi, proteggendo la natura con l'aiuto delle creature che vi abitano."
+  }
+]
