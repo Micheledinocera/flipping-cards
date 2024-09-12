@@ -1,6 +1,6 @@
 const path = require('path');
 let development = process.env.NODE_ENV !== 'production'
-let baseURL = development? "/" : "/swapping-cards/"
+let baseURL = development? "/" : "/flipping-cards/"
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
