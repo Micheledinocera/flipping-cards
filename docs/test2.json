@@ -1,0 +1,52 @@
+[
+  {
+    "fronte": "Adam Smith",
+    "retro": ["padre dell'economia moderna", "teoria della mano invisibile", "divisione del lavoro"],
+    "dettaglio": "Economista scozzese del XVIII secolo, autore de 'La ricchezza delle nazioni', considerato uno dei fondatori dell'economia classica."
+  },
+  {
+    "fronte": "John Maynard Keynes",
+    "retro": ["teoria keynesiana", "intervento statale", "domanda aggregata"],
+    "dettaglio": "Economista britannico, promotore dell'intervento statale nell'economia per stabilizzare i cicli economici e mitigare le crisi."
+  },
+  {
+    "fronte": "Karl Marx",
+    "retro": ["teoria del valore-lavoro", "critica del capitalismo", "lotta di classe"],
+    "dettaglio": "Filosofo ed economista tedesco, autore de 'Il Capitale', ha influenzato profondamente il pensiero socialista e comunista."
+  },
+  {
+    "fronte": "Milton Friedman",
+    "retro": ["monetarismo", "libero mercato", "inflazione controllata dall'offerta di moneta"],
+    "dettaglio": "Economista statunitense, sostenitore del libero mercato e del controllo della moneta come strumento per regolare l'economia."
+  },
+  {
+    "fronte": "David Ricardo",
+    "retro": ["vantaggio comparato", "teoria del commercio internazionale", "rendita"],
+    "dettaglio": "Economista britannico del XIX secolo, famoso per la teoria del vantaggio comparato che sostiene il commercio internazionale."
+  },
+  {
+    "fronte": "Joseph Schumpeter",
+    "retro": ["distruzione creativa", "ciclo economico", "innovazione"],
+    "dettaglio": "Economista austriaco noto per la teoria della 'distruzione creativa', dove l'innovazione porta al rinnovamento economico, ma anche alla distruzione di vecchie industrie."
+  },
+  {
+    "fronte": "Friedrich Hayek",
+    "retro": ["teoria del ciclo economico", "criticismo verso il socialismo", "difesa del liberalismo economico"],
+    "dettaglio": "Economista e filosofo austriaco, difensore del liberalismo economico e critico dell'intervento statale nell'economia."
+  },
+  {
+    "fronte": "Thomas Malthus",
+    "retro": ["teoria della popolazione", "malthusianesimo", "risorse limitate"],
+    "dettaglio": "Economista britannico, famoso per la teoria secondo cui la crescita della popolazione tende a superare la capacità produttiva delle risorse."
+  },
+  {
+    "fronte": "Jean-Baptiste Say",
+    "retro": ["legge di Say", "offerta crea domanda", "economia classica"],
+    "dettaglio": "Economista francese noto per la sua legge che afferma che l'offerta di beni crea la propria domanda."
+  },
+  {
+    "fronte": "Alfred Marshall",
+    "retro": ["elasticità della domanda", "equilibrio parziale", "fondatore dell'economia neoclassica"],
+    "dettaglio": "Economista britannico, pioniere dell'economia neoclassica e dell'uso di strumenti matematici per analizzare i mercati."
+  }
+]
