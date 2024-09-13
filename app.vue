@@ -8,7 +8,7 @@
 
 <style scoped lang="sass">
 .layout-container
-  #layout-content
+  
     display: block
     height: 100vh
     background-color: $primary-color-light

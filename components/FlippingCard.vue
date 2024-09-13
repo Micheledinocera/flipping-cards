@@ -1,4 +1,5 @@
 <template>
+  <div class="card-container">
     <div class="flip-card" @click="isFlipped=!isFlipped">
         <div :class="['flip-card-inner',{'flipped-card-inner':isFlipped}]">
             <div class="flip-card-front">
@@ -11,15 +12,32 @@
             </div>
         </div>
     </div>
+    <div class="feedback" v-if="isFlipped || withFeedback">
+      <div class="ok" @click="updateCard(true)">OK</div>
+      <div class="ko" @click="updateCard(false)">KO</div>
+      <div class="info" @click="showInfo"> INFO </div>
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts">
-
-var isFlipped=ref(false)
-
 const props = defineProps<{
-  card: Card
+  card: Card,
+  index: number,
 }>()
+const isFlipped=ref(false)
+
+const withFeedback=computed(()=>props.card.isCorrect!==null)
+
+const updateCard=(isCorrect:boolean)=>{
+  const cardToUse={...props.card,isCorrect:isCorrect}
+  useCardsStore().updateCard(props.index,cardToUse)
+}
+
+const showInfo=()=>{
+  useUtilsStore().modalContent=props.card.dettaglio
+  useUtilsStore().toggleShowModal()
+}
 </script>
 
 <style scoped lang="sass">
@@ -62,4 +80,13 @@ const props = defineProps<{
   background-color: dodgerblue
   color: white
   transform: rotateY(180deg)
+
+.feedback
+  display: grid
+  grid: auto-flow / repeat(3, 80px)
+  width: fit-content
+  justify-content: space-around
+  margin: 10px auto
+  >div
+    cursor: pointer
 </style>

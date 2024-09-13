@@ -19,14 +19,18 @@ export default defineNuxtConfig({
       },
     },
   },
-  modules: ['@davestewart/nuxt-scrollbar', '@pinia/nuxt'],
+  modules: [
+    '@davestewart/nuxt-scrollbar',
+    '@pinia/nuxt',
+    'vue3-carousel-nuxt',
+  ],
   nitro: {
     output: {
       publicDir: path.join(__dirname, '/docs')
     }
   },
   imports: {
-    dirs: ['models/*.ts','stores/*.ts'],
+    dirs: ['models/*.ts','stores/*.ts','utils/*.ts'],
   },
   app: {
     baseURL: baseURL

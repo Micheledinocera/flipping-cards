@@ -1,0 +1,1 @@
+import{H as l,r as t}from"./D9jFjam7.js";const g=l("utilsStore",()=>{const o=t(!1),e=t(!1),a=t("");return{isLoading:o,showModal:e,modalContent:a,toggleLoad:()=>{o.value=!o.value},toggleShowModal:()=>{e.value=!e.value}}});export{g as u};

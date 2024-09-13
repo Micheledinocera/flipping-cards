@@ -1,5 +1,6 @@
 <template>
     <div>
+      <InfoModal v-if="useUtilsStore().showModal"/>
       <Loader v-if="useUtilsStore().isLoading"/>
       <!-- <Header /> -->
       <slot />
